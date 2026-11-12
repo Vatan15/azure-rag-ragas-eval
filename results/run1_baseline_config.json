@@ -1,0 +1,56 @@
+{
+  "run": "run1_baseline",
+  "testset_file": "data/testsets/testset_v1.json",
+  "testset_version": "v1",
+  "testset_sha256": "5182ab0763243b46b5b5541574854831a591ce8064d6b6fd2798b53cebdcfe41",
+  "retrieval": {
+    "top_k": 3,
+    "mode": "hybrid (BM25 + vector)",
+    "semantic_ranker": false,
+    "index": "rag-chunks"
+  },
+  "generator": {
+    "deployment": "chat-mini",
+    "model": "gpt-4.1-mini",
+    "api_version": "2024-12-01-preview",
+    "temperature": 0,
+    "max_tokens": 300
+  },
+  "judge": {
+    "deployment": "chat-mini",
+    "model_reported": "gpt-4.1-mini-2025-04-14",
+    "temperature": 0,
+    "embeddings": "sentence-transformers/all-MiniLM-L6-v2 (local)"
+  },
+  "ragas_run_config": {
+    "max_workers": 2,
+    "timeout": 120,
+    "max_retries": 3,
+    "max_wait": 30
+  },
+  "metrics": [
+    "faithfulness",
+    "answer_relevancy",
+    "llm_context_precision_with_reference",
+    "context_recall"
+  ],
+  "usage": {
+    "pipeline": {
+      "calls": 10,
+      "tokens": 4469,
+      "retries": 0
+    },
+    "judge_calls": 70,
+    "judge_input_tokens": 62074,
+    "judge_output_tokens": 8513
+  },
+  "versions": {
+    "ragas": "0.4.3",
+    "openai": "3.3.0",
+    "langchain-openai": "1.7.3",
+    "langchain-core": "1.7.4",
+    "langchain-community": "0.3.31",
+    "sentence-transformers": "6.1.0",
+    "azure-search-documents": "12.0.0"
+  }
+}

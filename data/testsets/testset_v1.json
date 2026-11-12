@@ -1,0 +1,91 @@
+[
+  {
+    "id": "q01",
+    "type": "meaning",
+    "user_input": "what is the medicine for stomach acid problem?",
+    "reference": "Fictoprazole is the medicine used for stomach acid problems.",
+    "reference_chunk_ids": [
+      "0"
+    ]
+  },
+  {
+    "id": "q02",
+    "type": "meaning",
+    "user_input": "how to decide whether to take this medicine or not?",
+    "reference": "In deciding whether to use a medicine, the risks of taking it must be weighed against the good it will do. This is a decision you and your doctor will make together. Patient also has to tell their doctor if they have ever had any unusual or allergic reaction to this medicine or any other medicines. Also need to tell the doctor if they have any other types of allergies, such as to foods, dyes, preservatives, or animals.",
+    "reference_chunk_ids": [
+      "1"
+    ]
+  },
+  {
+    "id": "q03",
+    "type": "meaning",
+    "user_input": "what is the right way to take the capsule for this medicine?",
+    "reference": "Person has to swallow the capsule whole. Do not crush, break, or chew it. If you have trouble swallowing the capsule whole, you may open it and sprinkle the contents on a spoonful of applesauce. Swallow right away without chewing.",
+    "reference_chunk_ids": [
+      "3"
+    ]
+  },
+  {
+    "id": "q04",
+    "type": "exact_term",
+    "user_input": "what is GERD?",
+    "reference": "GERD stands for gastroesophageal reflux disease",
+    "reference_chunk_ids": [
+      "0"
+    ]
+  },
+  {
+    "id": "q05",
+    "type": "exact_term",
+    "user_input": "what happens due to Clostridioides bacteria?",
+    "reference": "It may cause severe intestinal issues due to a bacteria called Clostridioides difficile. And patient needs to tell their doctor right away if they have watery and severe diarrhea, stomach pain, fever, or blood or mucus in their stool during treatment or within a few months after stopping treatment.",
+    "reference_chunk_ids": [
+      "9"
+    ]
+  },
+  {
+    "id": "q06",
+    "type": "multi_part",
+    "user_input": "what is the adult dose for GERD and how to deal with the situation if the dose is missed?",
+    "reference": "the usual adult dose for GERD is 20 to 40 milligrams (mg) once a day for four to eight weeks. If the dose is missed, try to take it as soon as possible or if it is almost the time of next dose, skip the missed dose and then go back to the regular dosing schedule and do not double the dose.",
+    "reference_chunk_ids": [
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "q07",
+    "type": "multi_part",
+    "user_input": "what are the risks of using this medicine for long period of time and is it tested for kids and adults?",
+    "reference": "Using this medicine for a long period of time may increase your risk of having a bone fracture in the hip, wrist, or spine. This effect has been seen mostly in elderly patients. This medicine is only tested on the adults and there is no specific information comparing children with other age groups",
+    "reference_chunk_ids": [
+      "8",
+      "2"
+    ]
+  },
+  {
+    "id": "q08",
+    "type": "out_of_scope",
+    "user_input": "what is the national game of India?",
+    "reference": "I don't know based on the provided documents.",
+    "reference_chunk_ids": []
+  },
+  {
+    "id": "q09",
+    "type": "out_of_scope",
+    "user_input": "what is the medicine of piles?",
+    "reference": "I don't know based on the provided documents.",
+    "reference_chunk_ids": []
+  },
+  {
+    "id": "q10",
+    "type": "multi_part",
+    "user_input": "what are the side effects of the Fictoprazole medicine?",
+    "reference": "There are many side effects of this medicine such as black, tarry stools; bloody or cloudy urine; chest pain; fast or irregular heartbeat; muscle cramps or spasms; seizures; unusual tiredness or weakness. It can also cause the problems like headache; stomach pain; nausea; diarrhea; gas.",
+    "reference_chunk_ids": [
+      "6",
+      "7"
+    ]
+  }
+]

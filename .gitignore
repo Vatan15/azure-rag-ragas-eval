@@ -1,0 +1,24 @@
+# Secrets: never commit real credentials
+.env
+.env.*
+# ...but DO commit the template with placeholder values (this line must come after .env.*)
+!.env.example
+
+# Python environment and caches
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local-only files (learning exercises and old versions kept on my machine)
+_local_archive/
+Chunking_exercise.ipynb
+
+# Unused artifact from the first lesson (FAISS index; the pipeline uses Azure AI Search)
+data/processed/*.faiss
+
+# OS and editor files
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

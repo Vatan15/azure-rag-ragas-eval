@@ -1,0 +1,23 @@
+# Direct dependencies, pinned. Developed on Python 3.11.9 (Windows).
+# For the exact full environment of the published results, see requirements-lock.txt.
+
+# --- Pipeline: search, generation, ingestion ---
+azure-core==1.41.0
+azure-search-documents==12.0.0
+# openai is held at 3.3.0: ragas 0.4.3 depends on instructor 1.17.0, which needs this release line.
+openai==3.3.0
+python-dotenv==1.2.4
+sentence-transformers==6.1.0
+langchain-text-splitters==1.1.2
+
+# --- Evaluation (RAGAS) ---
+ragas==0.4.3
+langchain-openai==1.7.3
+langchain-huggingface==1.2.3
+# ragas 0.4.3 imports langchain_community.chat_models.vertexai, which langchain-community 0.4 removed.
+# Keep this below 0.4 until ragas is upgraded.
+langchain-community==0.3.31
+pandas==3.1.0
+
+# --- Tests ---
+pytest==9.2.0

@@ -1,0 +1,7 @@
+# Let Git normalise line endings of ordinary text files.
+* text=auto
+
+# The frozen test set is verified by a SHA-256 hash of its EXACT bytes (it uses CRLF line endings).
+# "-text" tells Git never to convert its line endings, on any platform, so every clone
+# reproduces the same bytes and the same hash (see tests/test_data_and_prompt.py).
+data/testsets/testset_v1.json -text

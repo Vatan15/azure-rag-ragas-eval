@@ -1,0 +1,222 @@
+[
+  {
+    "id": "q01",
+    "type": "meaning",
+    "question": "what is the medicine for stomach acid problem?",
+    "retrieved_ids": [
+      "0",
+      "4",
+      "2"
+    ],
+    "retrieved_texts": [
+      "## Description\n\nFictoprazole is used to reduce the amount of acid produced in the stomach. It belongs to a class of medicines known as proton pump inhibitors (PPIs). Doctors commonly prescribe it to treat conditions such as gastroesophageal reflux disease (GERD), stomach ulcers, and inflammation of the esophagus caused by excess stomach acid.\n\nThis medicine is available only with your doctor's prescription. It comes in delayed-release capsule and oral suspension forms.\n\n## Before Using This Medicine",
+      "## Dosage\n\nThe dose of this medicine will be different for different patients. Follow your doctor's orders or the directions on the label. The following information includes only the average doses of this medicine.\n\nFor treatment of GERD, the usual adult dose is 20 to 40 milligrams (mg) once a day for four to eight weeks.\n\nFor treatment of stomach ulcers, the usual adult dose is 40 mg once a day for four to eight weeks.",
+      "Studies on this medicine have been done only in adult patients, and there is no specific information comparing use of Fictoprazole in children with use in other age groups.\n\nAppropriate studies performed to date have not demonstrated pediatric-specific problems that would limit the usefulness of Fictoprazole in the elderly. However, elderly patients are more likely to have age-related liver or kidney problems, which may require caution in patients receiving this medicine.\n\n## Proper Use"
+    ],
+    "answer": "The medicine for stomach acid problems mentioned is Fictoprazole. It is used to reduce the amount of acid produced in the stomach and is commonly prescribed to treat conditions such as gastroesophageal reflux disease (GERD), stomach ulcers, and inflammation of the esophagus caused by excess stomach acid [chunk 0].",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt": 395,
+      "completion": 64,
+      "total": 459
+    }
+  },
+  {
+    "id": "q02",
+    "type": "meaning",
+    "question": "how to decide whether to take this medicine or not?",
+    "retrieved_ids": [
+      "1",
+      "3",
+      "5"
+    ],
+    "retrieved_texts": [
+      "## Before Using This Medicine\n\nIn deciding whether to use a medicine, the risks of taking it must be weighed against the good it will do. This is a decision you and your doctor will make together. For Fictoprazole, the following should be considered.\n\nTell your doctor if you have ever had any unusual or allergic reaction to this medicine or any other medicines. Also tell your doctor if you have any other types of allergies, such as to foods, dyes, preservatives, or animals.",
+      "## Proper Use\n\nTake this medicine exactly as directed by your doctor. Do not take more of it, do not take it more often, and do not take it for a longer time than your doctor ordered.\n\nSwallow the capsule whole. Do not crush, break, or chew it. If you have trouble swallowing the capsule whole, you may open it and sprinkle the contents on a spoonful of applesauce. Swallow right away without chewing.\n\nThis medicine works best when taken on an empty stomach, at least one hour before a meal.\n\n## Dosage",
+      "If you miss a dose of this medicine, take it as soon as possible. However, if it is almost time for your next dose, skip the missed dose and go back to your regular dosing schedule. Do not double doses.\n\n## Side Effects\n\nAlong with its needed effects, a medicine may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention."
+    ],
+    "answer": "The decision to take this medicine should be made by weighing the risks of taking it against the benefits it will provide. This decision should be made together with your doctor. You should also inform your doctor if you have had any unusual or allergic reactions to this medicine or any other medicines, as well as any other allergies you may have, such as to foods, dyes, preservatives, or animals [chunk 1].",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt": 413,
+      "completion": 82,
+      "total": 495
+    }
+  },
+  {
+    "id": "q03",
+    "type": "meaning",
+    "question": "what is the right way to take the capsule for this medicine?",
+    "retrieved_ids": [
+      "3",
+      "0",
+      "4"
+    ],
+    "retrieved_texts": [
+      "## Proper Use\n\nTake this medicine exactly as directed by your doctor. Do not take more of it, do not take it more often, and do not take it for a longer time than your doctor ordered.\n\nSwallow the capsule whole. Do not crush, break, or chew it. If you have trouble swallowing the capsule whole, you may open it and sprinkle the contents on a spoonful of applesauce. Swallow right away without chewing.\n\nThis medicine works best when taken on an empty stomach, at least one hour before a meal.\n\n## Dosage",
+      "## Description\n\nFictoprazole is used to reduce the amount of acid produced in the stomach. It belongs to a class of medicines known as proton pump inhibitors (PPIs). Doctors commonly prescribe it to treat conditions such as gastroesophageal reflux disease (GERD), stomach ulcers, and inflammation of the esophagus caused by excess stomach acid.\n\nThis medicine is available only with your doctor's prescription. It comes in delayed-release capsule and oral suspension forms.\n\n## Before Using This Medicine",
+      "## Dosage\n\nThe dose of this medicine will be different for different patients. Follow your doctor's orders or the directions on the label. The following information includes only the average doses of this medicine.\n\nFor treatment of GERD, the usual adult dose is 20 to 40 milligrams (mg) once a day for four to eight weeks.\n\nFor treatment of stomach ulcers, the usual adult dose is 40 mg once a day for four to eight weeks."
+    ],
+    "answer": "The right way to take the capsule for this medicine is to swallow the capsule whole. Do not crush, break, or chew it. If you have trouble swallowing the capsule whole, you may open it and sprinkle the contents on a spoonful of applesauce and swallow right away without chewing. Additionally, this medicine works best when taken on an empty stomach, at least one hour before a meal [chunk 3].",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt": 420,
+      "completion": 83,
+      "total": 503
+    }
+  },
+  {
+    "id": "q04",
+    "type": "exact_term",
+    "question": "what is GERD?",
+    "retrieved_ids": [
+      "0",
+      "4",
+      "9"
+    ],
+    "retrieved_texts": [
+      "## Description\n\nFictoprazole is used to reduce the amount of acid produced in the stomach. It belongs to a class of medicines known as proton pump inhibitors (PPIs). Doctors commonly prescribe it to treat conditions such as gastroesophageal reflux disease (GERD), stomach ulcers, and inflammation of the esophagus caused by excess stomach acid.\n\nThis medicine is available only with your doctor's prescription. It comes in delayed-release capsule and oral suspension forms.\n\n## Before Using This Medicine",
+      "## Dosage\n\nThe dose of this medicine will be different for different patients. Follow your doctor's orders or the directions on the label. The following information includes only the average doses of this medicine.\n\nFor treatment of GERD, the usual adult dose is 20 to 40 milligrams (mg) once a day for four to eight weeks.\n\nFor treatment of stomach ulcers, the usual adult dose is 40 mg once a day for four to eight weeks.",
+      "This medicine may cause a severe intestinal condition due to a bacteria called Clostridioides difficile. Tell your doctor right away if you have watery and severe diarrhea, stomach pain, fever, or blood or mucus in your stool during treatment or within a few months after stopping treatment."
+    ],
+    "answer": "I don't know based on the provided documents.",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt": 354,
+      "completion": 9,
+      "total": 363
+    }
+  },
+  {
+    "id": "q05",
+    "type": "exact_term",
+    "question": "what happens due to Clostridioides bacteria?",
+    "retrieved_ids": [
+      "9",
+      "6",
+      "4"
+    ],
+    "retrieved_texts": [
+      "This medicine may cause a severe intestinal condition due to a bacteria called Clostridioides difficile. Tell your doctor right away if you have watery and severe diarrhea, stomach pain, fever, or blood or mucus in your stool during treatment or within a few months after stopping treatment.",
+      "Check with your doctor immediately if any of the following side effects occur: black, tarry stools; bloody or cloudy urine; chest pain; fast or irregular heartbeat; muscle cramps or spasms; seizures; unusual tiredness or weakness.",
+      "## Dosage\n\nThe dose of this medicine will be different for different patients. Follow your doctor's orders or the directions on the label. The following information includes only the average doses of this medicine.\n\nFor treatment of GERD, the usual adult dose is 20 to 40 milligrams (mg) once a day for four to eight weeks.\n\nFor treatment of stomach ulcers, the usual adult dose is 40 mg once a day for four to eight weeks."
+    ],
+    "answer": "Clostridioides difficile bacteria may cause a severe intestinal condition. Symptoms to watch for include watery and severe diarrhea, stomach pain, fever, or blood or mucus in your stool during treatment or within a few months after stopping treatment. You should tell your doctor right away if you experience these symptoms [chunk 9].",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt": 309,
+      "completion": 63,
+      "total": 372
+    }
+  },
+  {
+    "id": "q06",
+    "type": "multi_part",
+    "question": "what is the adult dose for GERD and how to deal with the situation if the dose is missed?",
+    "retrieved_ids": [
+      "4",
+      "5",
+      "3"
+    ],
+    "retrieved_texts": [
+      "## Dosage\n\nThe dose of this medicine will be different for different patients. Follow your doctor's orders or the directions on the label. The following information includes only the average doses of this medicine.\n\nFor treatment of GERD, the usual adult dose is 20 to 40 milligrams (mg) once a day for four to eight weeks.\n\nFor treatment of stomach ulcers, the usual adult dose is 40 mg once a day for four to eight weeks.",
+      "If you miss a dose of this medicine, take it as soon as possible. However, if it is almost time for your next dose, skip the missed dose and go back to your regular dosing schedule. Do not double doses.\n\n## Side Effects\n\nAlong with its needed effects, a medicine may cause some unwanted effects. Although not all of these side effects may occur, if they do occur they may need medical attention.",
+      "## Proper Use\n\nTake this medicine exactly as directed by your doctor. Do not take more of it, do not take it more often, and do not take it for a longer time than your doctor ordered.\n\nSwallow the capsule whole. Do not crush, break, or chew it. If you have trouble swallowing the capsule whole, you may open it and sprinkle the contents on a spoonful of applesauce. Swallow right away without chewing.\n\nThis medicine works best when taken on an empty stomach, at least one hour before a meal.\n\n## Dosage"
+    ],
+    "answer": "The usual adult dose for the treatment of GERD is 20 to 40 milligrams (mg) once a day for four to eight weeks [chunk 4]. \n\nIf you miss a dose of this medicine, take it as soon as possible. However, if it is almost time for your next dose, skip the missed dose and go back to your regular dosing schedule. Do not double doses [chunk 5].",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt": 415,
+      "completion": 85,
+      "total": 500
+    }
+  },
+  {
+    "id": "q07",
+    "type": "multi_part",
+    "question": "what are the risks of using this medicine for long period of time and is it tested for kids and adults?",
+    "retrieved_ids": [
+      "8",
+      "1",
+      "2"
+    ],
+    "retrieved_texts": [
+      "Other side effects not listed here may also occur in some patients. If you notice any other effects, check with your doctor.\n\n## Precautions\n\nUsing this medicine for a long period of time may increase your risk of having a bone fracture in the hip, wrist, or spine. This effect has been seen mostly in elderly patients. Talk with your doctor if you have any concerns.",
+      "## Before Using This Medicine\n\nIn deciding whether to use a medicine, the risks of taking it must be weighed against the good it will do. This is a decision you and your doctor will make together. For Fictoprazole, the following should be considered.\n\nTell your doctor if you have ever had any unusual or allergic reaction to this medicine or any other medicines. Also tell your doctor if you have any other types of allergies, such as to foods, dyes, preservatives, or animals.",
+      "Studies on this medicine have been done only in adult patients, and there is no specific information comparing use of Fictoprazole in children with use in other age groups.\n\nAppropriate studies performed to date have not demonstrated pediatric-specific problems that would limit the usefulness of Fictoprazole in the elderly. However, elderly patients are more likely to have age-related liver or kidney problems, which may require caution in patients receiving this medicine.\n\n## Proper Use"
+    ],
+    "answer": "The risks of using this medicine for a long period of time include an increased risk of having a bone fracture in the hip, wrist, or spine, especially in elderly patients [chunk 8]. Regarding testing, studies on this medicine have been done only in adult patients, and there is no specific information comparing use of Fictoprazole in children with use in other age groups. Appropriate studies have not demonstrated pediatric-specific problems that would limit its usefulness in the elderly, but elderly patients may require caution due to age-related liver or kidney problems [chunk 2].",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt": 395,
+      "completion": 113,
+      "total": 508
+    }
+  },
+  {
+    "id": "q08",
+    "type": "out_of_scope",
+    "question": "what is the national game of India?",
+    "retrieved_ids": [
+      "3",
+      "1",
+      "4"
+    ],
+    "retrieved_texts": [
+      "## Proper Use\n\nTake this medicine exactly as directed by your doctor. Do not take more of it, do not take it more often, and do not take it for a longer time than your doctor ordered.\n\nSwallow the capsule whole. Do not crush, break, or chew it. If you have trouble swallowing the capsule whole, you may open it and sprinkle the contents on a spoonful of applesauce. Swallow right away without chewing.\n\nThis medicine works best when taken on an empty stomach, at least one hour before a meal.\n\n## Dosage",
+      "## Before Using This Medicine\n\nIn deciding whether to use a medicine, the risks of taking it must be weighed against the good it will do. This is a decision you and your doctor will make together. For Fictoprazole, the following should be considered.\n\nTell your doctor if you have ever had any unusual or allergic reaction to this medicine or any other medicines. Also tell your doctor if you have any other types of allergies, such as to foods, dyes, preservatives, or animals.",
+      "## Dosage\n\nThe dose of this medicine will be different for different patients. Follow your doctor's orders or the directions on the label. The following information includes only the average doses of this medicine.\n\nFor treatment of GERD, the usual adult dose is 20 to 40 milligrams (mg) once a day for four to eight weeks.\n\nFor treatment of stomach ulcers, the usual adult dose is 40 mg once a day for four to eight weeks."
+    ],
+    "answer": "I don't know based on the provided documents.",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt": 418,
+      "completion": 9,
+      "total": 427
+    }
+  },
+  {
+    "id": "q09",
+    "type": "out_of_scope",
+    "question": "what is the medicine of piles?",
+    "retrieved_ids": [
+      "3",
+      "8",
+      "9"
+    ],
+    "retrieved_texts": [
+      "## Proper Use\n\nTake this medicine exactly as directed by your doctor. Do not take more of it, do not take it more often, and do not take it for a longer time than your doctor ordered.\n\nSwallow the capsule whole. Do not crush, break, or chew it. If you have trouble swallowing the capsule whole, you may open it and sprinkle the contents on a spoonful of applesauce. Swallow right away without chewing.\n\nThis medicine works best when taken on an empty stomach, at least one hour before a meal.\n\n## Dosage",
+      "Other side effects not listed here may also occur in some patients. If you notice any other effects, check with your doctor.\n\n## Precautions\n\nUsing this medicine for a long period of time may increase your risk of having a bone fracture in the hip, wrist, or spine. This effect has been seen mostly in elderly patients. Talk with your doctor if you have any concerns.",
+      "This medicine may cause a severe intestinal condition due to a bacteria called Clostridioides difficile. Tell your doctor right away if you have watery and severe diarrhea, stomach pain, fever, or blood or mucus in your stool during treatment or within a few months after stopping treatment."
+    ],
+    "answer": "I don't know based on the provided documents.",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt": 356,
+      "completion": 9,
+      "total": 365
+    }
+  },
+  {
+    "id": "q10",
+    "type": "multi_part",
+    "question": "what are the side effects of the Fictoprazole medicine?",
+    "retrieved_ids": [
+      "6",
+      "9",
+      "8"
+    ],
+    "retrieved_texts": [
+      "Check with your doctor immediately if any of the following side effects occur: black, tarry stools; bloody or cloudy urine; chest pain; fast or irregular heartbeat; muscle cramps or spasms; seizures; unusual tiredness or weakness.",
+      "This medicine may cause a severe intestinal condition due to a bacteria called Clostridioides difficile. Tell your doctor right away if you have watery and severe diarrhea, stomach pain, fever, or blood or mucus in your stool during treatment or within a few months after stopping treatment.",
+      "Other side effects not listed here may also occur in some patients. If you notice any other effects, check with your doctor.\n\n## Precautions\n\nUsing this medicine for a long period of time may increase your risk of having a bone fracture in the hip, wrist, or spine. This effect has been seen mostly in elderly patients. Talk with your doctor if you have any concerns."
+    ],
+    "answer": "The side effects of Fictoprazole medicine include:\n\n- Black, tarry stools\n- Bloody or cloudy urine\n- Chest pain\n- Fast or irregular heartbeat\n- Muscle cramps or spasms\n- Seizures\n- Unusual tiredness or weakness\n- Severe intestinal condition caused by Clostridioides difficile, which may present as watery and severe diarrhea, stomach pain, fever, or blood or mucus in stool during treatment or within a few months after stopping treatment\n- Increased risk of bone fractures in the hip, wrist, or spine, especially with long-term use and mostly in elderly patients\n- Other side effects not listed may also occur, and patients should check with their doctor if they notice any other effects [chunks 6, 8, 9].",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt": 297,
+      "completion": 158,
+      "total": 455
+    }
+  }
+]
