@@ -170,11 +170,24 @@ requirements-lock.txt   full environment snapshot (Windows, Python 3.11.9)
 
 ## Next steps
 
-- Run 3: fix the q04 over-refusal with a single prompt change and re-check that both out-of-scope questions still refuse.
-- Run 4: a larger `top_k` (for example 5) to recover q10's missing chunk.
-- Compare against Qdrant as the vector store.
-- Build a LangGraph agent on top of the pipeline.
-- Housekeeping: migrate off the deprecated RAGAS APIs, generate run configs automatically, add CI that runs the offline tests, and strip notebook outputs with a pre-commit hook.
+Roadmap, tracked as a checklist.
+
+**Experiments**
+
+- [ ] Run 3: fix the q04 over-refusal with a single prompt change and re-check that both out-of-scope questions still refuse.
+- [ ] Run 4: a larger `top_k` (for example 5) to recover q10's missing chunk 7.
+- [ ] Re-score with a judge from a different model family to check for self-preference bias.
+- [ ] Compare against Qdrant as the vector store.
+- [ ] Build a LangGraph agent on top of the pipeline.
+
+**Engineering (v1.1)**
+
+- [ ] Test a truly fresh install: new virtual environment from `requirements.txt`, then the offline tests.
+- [ ] Migrate off the deprecated RAGAS APIs (`ragas.metrics.collections`, `llm_factory`) before RAGAS 1.0.
+- [ ] Generate each run's config file automatically instead of writing it from notebooks.
+- [ ] Add CI (GitHub Actions) that runs the offline tests.
+- [ ] Strip notebook outputs automatically with a pre-commit hook.
+- [ ] Redraw the first architecture diagram top-to-bottom so its text is larger.
 
 ## Author
 
